@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+:root {
+  Purple 100: hsl(254, 88%, 90%);
+- Purple 500: hsl(256, 67%, 59%);
+
+- Yellow 100: hsl(31, 66%, 93%);
+- Yellow 500: hsl(39, 100%, 71%);
+
+- White: hsl(0, 0%, 100%);
+- Black: hsl(0, 0%, 7%);
+}
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: hsl(0, 0%, 94%);
+  overflow-x:hidden;
+  margin:0;
+  padding:20px;
+}
+
+.container {
+  display:grid;
+  grid-template-columns:1fr;
+  gap:30px;
+}
+
+.card {
+  padding:30px;
+  border-radius:10px;
+}
+
+.card img {
+  max-width:100%;
+}
+.card-1 {
+  background-color: hsl(256, 67%, 59%);
+  text-align:center;
+}
+
+.card-1 h1 {
+  font-size:42px;
+  font-weight:500;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-1 span {
+  color: hsl(39, 100%, 71%);
+}
+
+.card-1 img {
+  width:200px;
+  margin-bottom:5px;
+}
+
+.card-1 p {
+  color: hsl(0, 0%, 100%);
+  font-size:18px;
+}
+
+
+.card-2 {
+  background-color: hsl(0, 0%, 100%);
+  padding:20px;
+
+}
+
+.card-2 img {
+  margin-bottom:10px;
+}
+
+.card-2 h2 {
+  font-size:22px;
+}
+
+.card-3 {
+  background-color: hsl(39, 100%, 71%);
+  padding:0 20px;
+}
+
+.card-3 h2 {
+  padding-top:20px;
+  margin-bottom:15px;
+}
+
+.card-3 img {
+  width:220px;
+}
+
+
+.card-4 {
+  background-color: hsl(254, 88%, 90%);
+  padding:0 20px;
+}
+
+.card-4 h2 {
+  font-size:22px;
+  padding:20px 0;
+  text-align:center;
+}
+
+.card-4 p {
+  padding:20px;
+  font-size:15px;
+  text-align:center;
+  font-weight:500;
+}
+
+.card-5 {
+  background-color: hsl(256, 67%, 59%);
+  padding:20px 0;
+}
+
+.card-5 img {
+  width:230px;
+  display:block;
+  margin:auto;
+  padding-bottom:30px;
+}
+
+.card-5 h2 {
+  color: hsl(0, 0%, 100%);
+  text-align:center;
+  font-size:35px;
+}
+
+.card-6 {
+  background-color: hsl(0, 0%, 100%);
+  padding:20px;
+}
+
+.card-6 h2 {
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+.card-6 p {
+  font-size:18px;
+  margin-bottom:20px;
+}
+
+.card-6 img {
+  width:180px;
+}
+
+
+.card-7 {
+  background-color: hsl(31, 66%, 91%);
+  
+}
+
+.card-7 h2 {
+  font-size:26px;
+  margin-bottom:15px;
+}
+
+.card-7 span {
+  color: hsl(256, 67%, 59%);
+  font-weight:500;
+}
+
+.card-7 img {
+  width:175px;
+}
+
+
+.card-8 {
+  background-color: hsl(39, 100%, 71%);
+  padding:20px;
+}
+
+.card-8 h2 {
+  font-size:26px;
+  margin-bottom:15px;
+}
+
+.card-8 img {
+  width:200px;
+}
